@@ -17,7 +17,7 @@ A simple weather application that fetches real-time weather data from the [Weath
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https:/khairul25556/github.com//weather-app.git
+   git clone https://github.com/RifatS90/Weather-app.git
    ```
 2. Navigate to the project folder:
    ```bash
