@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.75px;
+    background: linear-gradient(to top right,#01bffd, #2641c2);
+}
+
+.ctn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 32px; 
+    width: 400px;
+    height: 480px;
+    padding: 12px;
+    border-radius: 11px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.06);
+}
+
+.search-ctn{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    position: relative;
+}
+
+.search{
+    width: 270px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    padding-left: 44px;
+    font-size: 18px;
+    font-family: inherit;
+    box-shadow: 0 0 6px 6px rgba(0,0,0,0.06);
+    transition: width 0.3s;
+}
+
+.search-icon{
+   position: absolute;
+   margin-left: 12px;
+   font-size: 28px;
+   color: #222;
+}
+
+.search:focus{
+    width: 300px;
+}
+
+.first-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 26px;
+}
+
+.second-info{
+    margin-top: 32px;
+    display: flex;
+    column-gap: 60px;
+}
+
+.second-info div:nth-child(2){ /*Selects the second child (2nd element) that is a div inside .second-info.*/
+    margin-left: 24px; 
+}
+
+.weather-icon{
+    width: 100px;
+}
+
+span{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    margin-bottom: 8px;
+}
+
+.icon{
+    color: #2641c2;
+}
+
